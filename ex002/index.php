@@ -8,7 +8,8 @@
 <body>
     <h1>Exemplo de PHP</h1>
     <?php 
-        echo "Hoje é  dia ". date("d/M/Y");
+        echo "<p>Hoje é  dia ". date("d/M/Y") . "</p>";
+        echo "E a hora atual é " . date("d:i:s T");
     ?>
 </body>
 </html>
