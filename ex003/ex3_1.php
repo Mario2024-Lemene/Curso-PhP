@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulação de Strings</title>
+    <titl  e>Manipulação de Strings</title>
 </head>
 
 <body>
