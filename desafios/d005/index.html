@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio PHP</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Analizador de número Real</h1>
+        <form action="conversor.php" method="get">
+                <p>
+                    <label for="inNum">Número real: </label>
+                    <input type="number" name="numero" id="inNum" step="0.001" required min="0">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+        </form>
+    </main>
+</body>
+</html>

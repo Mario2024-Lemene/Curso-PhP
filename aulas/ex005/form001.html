@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio PHP</title>
+    <link rel="stylesheet" href="../ex004/estilo.css">
+</head>
+<body>
+    <main>
+        <form action="superglobais.php?nome=Dolvino&idade=18" method="post">
+            <fieldset>
+                <legend>Login do Usuario</legend>
+                <p>
+                    <label for="inUsuario">Usuario: </label>
+                    <input type="text" name="usuario" id="inUsuario" required>
+                </p>
+                <p>
+                    <label for="inPassword">Password: </label>
+                    <input type="password" name="password" id="inPassword" required>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar dados">
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
