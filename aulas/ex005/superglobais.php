@@ -28,6 +28,7 @@
                 
                 echo "<h1>SuperGlobal SERVER</h1>";
                 var_dump($_SERVER);
+                // essa superGlobal é muito util 
                 echo "<h1>SuperGlobal GLOBALS</h1>";
                 var_dump($GLOBALS)
             ?>
