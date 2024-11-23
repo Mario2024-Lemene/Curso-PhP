@@ -14,8 +14,9 @@
 </head>
 <body>
     <?php 
-        $dividendo = $_GET['dividendo']??0;
-        $divisor = $_GET['divisor']??0;
+    // antes de esse operador e 0 pense bem
+        $dividendo = $_GET['dividendo']??2;
+        $divisor = $_GET['divisor']??1;
     ?>
     <h1>Anatomia de uma divisão</h1>
     <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
